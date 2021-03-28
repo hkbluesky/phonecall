@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        return ZStack(content: {
+            RoundedRectangle(cornerRadius: 15.0).stroke()
+            Text("👻 Hello11877k5667").font(Font.largeTitle).padding()
+        })
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+

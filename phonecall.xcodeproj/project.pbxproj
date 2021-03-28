@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		44D04DF425F34B4400E3BEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D04DF325F34B4400E3BEE3 /* Preview Assets.xcassets */; };
 		44D04DFF25F34B4500E3BEE3 /* phonecallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D04DFE25F34B4500E3BEE3 /* phonecallTests.swift */; };
 		44D04E0A25F34B4500E3BEE3 /* phonecallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D04E0925F34B4500E3BEE3 /* phonecallUITests.swift */; };
+		44F99D7C25F6CDA100D1C0F9 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 44F99D7B25F6CDA100D1C0F9 /* ParseSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F99D7C25F6CDA100D1C0F9 /* ParseSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = phonecall;
+			packageProductDependencies = (
+				44F99D7B25F6CDA100D1C0F9 /* ParseSwift */,
+			);
 			productName = phonecall;
 			productReference = 44D04DE925F34B4000E3BEE3 /* phonecall.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 44D04DE025F34B4000E3BEE3;
+			packageReferences = (
+				44F99D7A25F6CDA100D1C0F9 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			productRefGroup = 44D04DEA25F34B4000E3BEE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -580,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44F99D7A25F6CDA100D1C0F9 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44F99D7B25F6CDA100D1C0F9 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44F99D7A25F6CDA100D1C0F9 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44D04DE125F34B4000E3BEE3 /* Project object */;
 }
