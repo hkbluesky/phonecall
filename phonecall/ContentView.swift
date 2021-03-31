@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    var viewModel: EmojiMemoryGame
+    
     var body: some View {
             
         HStack {
@@ -25,11 +27,16 @@ struct ContentView: View {
 }
 
 struct CardView: View {
+    var isFaceUp: Bool=true
     var body: some View {
         ZStack  {
+            if isFaceUp {
         RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
         RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
         Text("👻").font(Font.largeTitle).padding()
+            } else {
+                RoundedRectangle(cornerRadius: 10.0).fill()
+            }
 }
 
         
