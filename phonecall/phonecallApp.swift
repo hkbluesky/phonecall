@@ -11,7 +11,8 @@ import SwiftUI
 struct phonecallApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+        //let game = EmojiMemoryGame()
+        //let ContentView = ContentView(viewModel: EmojiMemoryGame())
         }
     }
 }
