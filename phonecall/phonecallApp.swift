@@ -12,7 +12,8 @@ struct phonecallApp: App {
     var body: some Scene {
         WindowGroup {
         //let game = EmojiMemoryGame()
-        //let ContentView = ContentView(viewModel: EmojiMemoryGame())
+        //ContentView(viewModel: EmojiMemoryGame())
+        ContentView(viewModel: EmojiMemoryGame())
         }
     }
 }

@@ -14,8 +14,8 @@ class EmojiMemoryGame {
         //MemoryGame<String> (numberofParisOfCards: 2) {}
     
     static func createMemoryGame() -> MemoryGame<String> {
-        let emojis: Array<String> = ["😀", "👻"]
-        return MemoryGame<String>(numberofParisOfCards: 2) {pairIndex in
+        let emojis: Array<String> = ["😀", "👻", "🎃"]
+        return MemoryGame<String>(numberofParisOfCards: emojis.count) {pairIndex in
             return emojis[pairIndex]
         }
     }
