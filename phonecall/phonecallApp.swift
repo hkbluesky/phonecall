@@ -13,7 +13,7 @@ struct phonecallApp: App {
         WindowGroup {
         //let game = EmojiMemoryGame()
         //ContentView(viewModel: EmojiMemoryGame())
-        ContentView(viewModel: EmojiMemoryGame())
+        EmojiMemoryGameView(viewModel: EmojiMemoryGame())
         }
     }
 }
