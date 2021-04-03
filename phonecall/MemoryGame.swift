@@ -14,7 +14,7 @@ struct MemoryGame<CardContent> {
         print("card chosen: \(card)")
         //card.isFaceUp = !card.isFaceUp
         let chosenIndex: Int = self.index(of: card)
-        self.cards[chosenIndex].isFaceUp = self.cards[chosenIndex].isFaceUp
+        self.cards[chosenIndex].isFaceUp = !self.cards[chosenIndex].isFaceUp
         
     }
     
