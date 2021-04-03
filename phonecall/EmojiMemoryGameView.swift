@@ -34,15 +34,18 @@ struct CardView: View {
     //var isFaceUp: Bool=true
     var card: MemoryGame<String>.Card
     
-    
-    
     var body: some View {
-        GeometryReader{geometry in
+        GeometryReader { geometry in
+            self.body(for: geometry.size)
+        }
+    }
+    
+    func body(for size: CGSize) -> some View {
         ZStack  {
             if self.card.isFaceUp {
                 RoundedRectangle(cornerRadius: cornerRadius).fill(Color.white)
                 RoundedRectangle(cornerRadius: cornerRadius).stroke(lineWidth: edgeLineWidth)
-                Text(self.card.content).font(Font.largeTitle).padding()
+                Text(self.card.content)
             } else {
                 RoundedRectangle(cornerRadius: cornerRadius).fill(Color.yellow)
             }
