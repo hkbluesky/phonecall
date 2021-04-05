@@ -11,6 +11,7 @@
 		44CB928D261386C20091A279 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB928C261386C20091A279 /* EmojiMemoryGame.swift */; };
 		44CB929526195F020091A279 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB929426195F020091A279 /* Grid.swift */; };
 		44CB929A261B6E500091A279 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB9299261B6E4F0091A279 /* GridLayout.swift */; };
+		44CB929F261B8B110091A279 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB929E261B8B110091A279 /* Array+Identifiable.swift */; };
 		44D04DED25F34B4000E3BEE3 /* phonecallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D04DEC25F34B4000E3BEE3 /* phonecallApp.swift */; };
 		44D04DEF25F34B4000E3BEE3 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D04DEE25F34B4000E3BEE3 /* EmojiMemoryGameView.swift */; };
 		44D04DF125F34B4400E3BEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D04DF025F34B4400E3BEE3 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		44CB928C261386C20091A279 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		44CB929426195F020091A279 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		44CB9299261B6E4F0091A279 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		44CB929E261B8B110091A279 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		44D04DE925F34B4000E3BEE3 /* phonecall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phonecall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D04DEC25F34B4000E3BEE3 /* phonecallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonecallApp.swift; sourceTree = "<group>"; };
 		44D04DEE25F34B4000E3BEE3 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				44CB92872613642A0091A279 /* MemoryGame.swift */,
 				44CB928C261386C20091A279 /* EmojiMemoryGame.swift */,
 				44CB929426195F020091A279 /* Grid.swift */,
+				44CB929E261B8B110091A279 /* Array+Identifiable.swift */,
 			);
 			path = phonecall;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				44D04DED25F34B4000E3BEE3 /* phonecallApp.swift in Sources */,
 				44CB929A261B6E500091A279 /* GridLayout.swift in Sources */,
 				44CB929526195F020091A279 /* Grid.swift in Sources */,
+				44CB929F261B8B110091A279 /* Array+Identifiable.swift in Sources */,
 				44CB928D261386C20091A279 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
